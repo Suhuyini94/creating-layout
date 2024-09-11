@@ -5,6 +5,9 @@
   border: none;
   overflow-x: hidden;
 }
+#logo{
+font-weight: bold;
+}
 
 /* Navigation */
 
@@ -174,6 +177,17 @@ a {
 }
 .gallery-overlay:hover {
   opacity: 1;
+}
+
+#about{
+  display: flex;
+}
+
+#about-itmes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100vw;
+  gap: 20px;
 }
 
 .ft-hd-cl {
