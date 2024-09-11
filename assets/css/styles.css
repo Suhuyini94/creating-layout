@@ -24,6 +24,7 @@ nav {
   position: fixed;
   height: 48px;
 }
+
 .nav-items {
   display: flex;
   /* flex-direction: row; */
@@ -114,6 +115,7 @@ a {
   display: flex;
   column-gap: 10px;
 }
+
 .ft-style {
   align-items: center;
   margin: 20;
@@ -175,6 +177,7 @@ a {
   color: white;
   opacity: 0;
 }
+
 .gallery-overlay:hover {
   opacity: 1;
 }
@@ -196,10 +199,10 @@ a {
   color: #32dbc6;
 }
 
-#get-started{
+#get-started {
   background-color: #32dbc6;
   height: 100px;
- padding-top: 50px;
+  padding-top: 50px;
   text-align: center;
   color: white;
 }
@@ -210,41 +213,40 @@ footer {
   padding: 100px 100px;
   column-gap: 30px;
   display: flex;
- }
+}
 
-.footer-item{
+.footer-item {
   color: white;
   display: flex;
   flex-direction: column;
-  row-gap: 10px; 
+  row-gap: 10px;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   column-gap: 10px;
 }
 
-footer a{
-color: #999999;
+footer a {
+  color: #999999;
 }
 
-#txt-btn{
-display: flex;
+#txt-btn {
+  display: flex;
 }
-#email-text{
+
+#email-text {
   justify-content: center;
   align-items: center;
   height: 40px;
-border-radius: 20px 0px 0px 20px;
-resize: none;
-border: none;
+  border-radius: 20px 0px 0px 20px;
+  padding-left: 10px;
 }
 
-#footer-btn{
+#footer-btn {
   background-color: #32dbc6;
   color: #ffff;
   height: 40px;
   width: 60px;
   border-radius: 0px 20px 20px 0px;
 }
-
